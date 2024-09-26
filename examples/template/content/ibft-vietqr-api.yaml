@@ -1,0 +1,19 @@
+openapi: 3.0.0
+info:
+  title: IBFT VietQr API
+  version: 1.0.0
+paths:
+  /uat/vnouph/update-transaction:
+    post:
+      summary: Update IBFT VietQr transaction
+      # ... (thêm chi tiết)
+
+  /uat/vnouph/search-transaction:
+    post:
+      summary: Search IBFT VietQr transaction
+      # ... (thêm chi tiết)
+
+  /uat/prefix/gen-transaction:
+    post:
+      summary: Generate QR code for IBFT VietQr
+      # ... (thêm chi tiết)

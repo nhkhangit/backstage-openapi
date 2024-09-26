@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Group
+metadata:
+  name: payment-integration
+  namespace: default
+spec:
+  type: team
+  profile:
+    displayName: Payment Integration Team
+    email: payment-integration@example.com
+  parent: default-team
+  children: []

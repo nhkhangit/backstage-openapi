@@ -59,6 +59,7 @@ const SidebarLogo = () => {
 export const Root = ({ children }: PropsWithChildren<{}>) => (
   <SidebarPage>
     <Sidebar>
+  
       <SidebarLogo />
       <SidebarGroup label="Search" icon={<SearchIcon />} to="/search">
         <SidebarSearchModal />

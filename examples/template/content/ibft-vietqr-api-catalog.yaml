@@ -1,0 +1,37 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ibft-vietqr-gen-qr
+  namespace: default
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/payment-integration
+  definition:
+    $text: ./ibft-vietqr-api.yaml
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ibft-vietqr-search-transaction
+  namespace: default
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/payment-integration
+  definition:
+    $text: ./ibft-vietqr-api.yaml
+
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: ibft-vietqr-update-transaction
+  namespace: default
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/payment-integration
+  definition:
+    $text: ./ibft-vietqr-api.yaml

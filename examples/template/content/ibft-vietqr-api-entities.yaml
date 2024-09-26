@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: ibft-vietqr-api
+  namespace: default
+spec:
+  type: service
+  lifecycle: production
+  owner: group:default/payment-integration
+  system: system:default/payment-system
+  providesApis:
+    - api:default/ibft-vietqr-update-transaction
+    - api:default/ibft-vietqr-search-transaction
+    - api:default/ibft-vietqr-gen-qr
